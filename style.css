@@ -73,19 +73,19 @@ nav a {
   gap: 20px;
 }
 
-.hero{
-    background-color: red !important;
-    background-image: none !important;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("https://image.tmdb.org/t/p/w1280/dyqQ12gZGwl5Y0R9UsLBDkZWOUA.jpg");
-    background-size: cover; 
-    background-position: center; 
-    min-height: 40vh; 
-    padding: 24px; 
-    box-sizing: border-box; 
-    color: #fff; 
-    border-radius: 12px; 
-    display: flex; 
-    flex-direction: column; 
+
+.hero {
+    background-image: url("https://image.tmdb.org/t/p/w1280/dyqQ12gZGwl5Y0R9UsLBDkZWOUA.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    padding: 24px;
+    box-sizing: border-box;
+    color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
