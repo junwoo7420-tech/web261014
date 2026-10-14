@@ -74,6 +74,8 @@ nav a {
 }
 
 .hero{
+    background-color: red !important;
+    background-image: none !important;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("https://image.tmdb.org/t/p/w1280/dyqQ12gZGwl5Y0R9UsLBDkZWOUA.jpg");
     background-size: cover; 
     background-position: center; 
